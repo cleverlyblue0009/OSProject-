@@ -1,0 +1,46 @@
+# Restaurant Order Management System - Dependencies
+# 
+# This file lists the Python package dependencies for the Restaurant Order Management System.
+# The application is designed to work with minimal dependencies to ensure broad compatibility.
+
+# Core Python Standard Library (included with Python 3.8+)
+# - threading: For multi-threaded programming and synchronization
+# - tkinter: For GUI development (usually included with Python)
+# - queue: For thread-safe communication
+# - time: For timing and delays
+# - random: For simulation randomness
+# - dataclasses: For Order data structure
+# - enum: For status enumerations
+# - typing: For type hints
+# - argparse: For command-line argument parsing
+# - signal: For graceful shutdown handling
+# - logging: For application logging
+# - platform: For system information
+
+# Optional Dependencies (enhance functionality but not required)
+# Uncomment the following line to enable enhanced system monitoring:
+# psutil>=5.8.0
+
+# Development Dependencies (for contributors)
+# Uncomment the following lines for development work:
+# pytest>=6.0.0          # For unit testing
+# pytest-cov>=2.10.0     # For test coverage
+# black>=21.0.0          # For code formatting
+# flake8>=3.8.0          # For code linting
+# mypy>=0.800            # For static type checking
+# sphinx>=4.0.0          # For documentation generation
+
+# Note: This application is designed to run with Python's standard library only.
+# No additional packages are required for basic functionality.
+# 
+# To install optional dependencies:
+#   pip install psutil
+#
+# To install development dependencies:
+#   pip install -r requirements-dev.txt
+#
+# Python Version Requirement: 3.8+
+# 
+# Tested on:
+# - Python 3.8, 3.9, 3.10, 3.11, 3.12
+# - Windows 10/11, macOS 10.15+, Ubuntu 18.04+
