@@ -1,0 +1,37 @@
+# Restaurant Order Management System - Python Dependencies
+# 
+# This application primarily uses Python standard library modules.
+# No external dependencies are required for core functionality.
+#
+# Python Version Required: 3.8+
+
+# Core dependencies (all from standard library):
+# - threading: Multi-threading support (built-in)
+# - tkinter: GUI framework (usually included with Python)
+# - queue: Thread-safe queue for communication (built-in)
+# - dataclasses: Data class support (built-in for Python 3.7+)
+# - datetime: Time and date handling (built-in)
+# - collections: Deque for buffer implementation (built-in)
+
+# Note: tkinter is usually installed by default with Python.
+# If tkinter is missing, install it via your package manager:
+#
+# Ubuntu/Debian:
+#   sudo apt-get install python3-tk
+#
+# Fedora/RHEL:
+#   sudo dnf install python3-tkinter
+#
+# macOS (with Homebrew):
+#   brew install python-tk
+#
+# Windows:
+#   tkinter is included with standard Python installation
+
+# Optional dependencies for development:
+# (Uncomment if needed for development)
+
+# pylint>=2.17.0        # Code quality checking
+# black>=23.0.0         # Code formatting
+# mypy>=1.0.0           # Type checking
+# pytest>=7.0.0         # Testing framework
